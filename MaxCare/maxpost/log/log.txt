@@ -1,0 +1,42 @@
+-----------------------------------------------------------------------------
+Date: 21/09/2021 21:54:49
+File: 21_9_2021_21_54_49_9517
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 85 (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault)
+-----------------------------------------------------------------------------
+Date: 21/09/2021 21:55:06
+File: 21_9_2021_21_55_6_9990
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 85 (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault)
+-----------------------------------------------------------------------------
+Date: 21/09/2021 21:55:38
+File: 21_9_2021_21_55_38_4224
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 85 (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault)

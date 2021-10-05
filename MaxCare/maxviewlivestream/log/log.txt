@@ -1,0 +1,51 @@
+-----------------------------------------------------------------------------
+Date: 23/04/2021 15:39:37
+File: 23_4_2021_15_39_37_5169
+Error: Run Program
+
+Type: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+StackTrace:    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.Emit.DynamicMethod.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ConversionBack.PROTECTED_BY_MIN_SOFTWARE.ConversionBack(Byte[] bytes, Int32 ID, Object[] parameters, MethodBase callingMethod)
+   at ConversionBack.PROTECTED_BY_MIN_SOFTWARE._PROTECTED_BY_MIN_SOFTWARE_(Int32 position, Int32 size, Int32 ID, Object[] parameters)
+   at maxcare.fMain.OnLoaded(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at (String[] )
+-----------------------------------------------------------------------------
+Date: 23/04/2021 15:43:29
+File: 23_4_2021_15_43_29_4640
+Error: Run Program
+
+Type: System.Reflection.TargetInvocationException
+Message: Exception has been thrown by the target of an invocation.
+StackTrace:    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.Emit.DynamicMethod.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ConversionBack.PROTECTED_BY_MIN_SOFTWARE.ConversionBack(Byte[] bytes, Int32 ID, Object[] parameters, MethodBase callingMethod)
+   at ConversionBack.PROTECTED_BY_MIN_SOFTWARE._PROTECTED_BY_MIN_SOFTWARE_(Int32 position, Int32 size, Int32 ID, Object[] parameters)
+   at maxcare.fMain.OnLoaded(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at (String[] )
+-----------------------------------------------------------------------------
+Date: 21/09/2021 22:02:55
+File: 21_9_2021_22_2_55_1386
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 93.0.4577.82 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open()

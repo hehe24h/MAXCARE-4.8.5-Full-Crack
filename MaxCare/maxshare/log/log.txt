@@ -1,0 +1,352 @@
+-----------------------------------------------------------------------------
+Date: 23/09/2020 06:47:13
+File: 23_9_2020_6_47_13_2406
+Error: chrome.GetURL()
+
+Type: System.NullReferenceException
+Message: Object reference not set to an instance of an object.
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.get_Url()
+   at (_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ \* XmlWriter.WriteName )
+-----------------------------------------------------------------------------
+Date: 23/09/2020 06:47:13
+File: 23_9_2020_6_47_13_9933
+Error: chrome.GetURL()
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.get_Url()
+   at (_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ \* XmlWriter.WriteName )
+-----------------------------------------------------------------------------
+Date: 23/09/2020 06:47:14
+File: 23_9_2020_6_47_14_4163
+Error: chrome.GotoURL(https://www.facebook.com)
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
+   at (_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ \* XmlWriter.WriteName , String )
+-----------------------------------------------------------------------------
+Date: 23/09/2020 06:47:14
+File: 23_9_2020_6_47_14_4163
+Error: chrome.GetURL()
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.get_Url()
+   at (_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ \* XmlWriter.WriteName )
+-----------------------------------------------------------------------------
+Date: 23/09/2020 06:47:14
+File: 23_9_2020_6_47_14_7392
+Error: chrome.GetURL()
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.get_Url()
+   at (_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ \* XmlWriter.WriteName )
+-----------------------------------------------------------------------------
+Date: 23/09/2020 06:47:14
+File: 23_9_2020_6_47_14_5919
+Error: chrome.ExecuteScript(async function CheckLiveCookie() { var output = '0|0'; try { var response = await fetch('https://m.facebook.com/me'); if (response.ok) { var body = await response.text(); if (body.includes('id="code_in_cliff"')||body.includes('name="new"')||body.includes('name="c"')) output = '1|0'; if (!body.includes('checkpointSubmitButton') && !body.includes('checkpointBottomBar') && !body.includes('captcha_response') && body.match(new RegExp('"USER_ID":"(.*?)"'))[1] == (document.cookie+';').match(new RegExp('c_user=(.*?);'))[1]) output = '1|1'; } } catch {} return output; }; var c = await CheckLiveCookie(); return c;)
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)
+   at (_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ \* XmlWriter.WriteName , String )
+-----------------------------------------------------------------------------
+Date: 23/09/2020 06:47:14
+File: 23_9_2020_6_47_14_9148
+Error: chrome.CheckExistElement(#checkpointSubmitButton,0)
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)
+   at (_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ \* XmlWriter.WriteName , String , Double )
+-----------------------------------------------------------------------------
+Date: 23/09/2020 06:47:14
+File: 23_9_2020_6_47_14_3378
+Error: chrome.CheckExistElement(#captcha_response,0)
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)
+   at (_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ \* XmlWriter.WriteName , String , Double )
+-----------------------------------------------------------------------------
+Date: 23/09/2020 06:47:14
+File: 23_9_2020_6_47_14_3378
+Error: chrome.CheckExistElement(#checkpointBottomBar,0)
+
+Type: OpenQA.Selenium.NoSuchWindowException
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)
+   at (_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ \* XmlWriter.WriteName , String , Double )
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:02:56
+File: 2_10_2020_0_2_56_8952
+Error: chrome.SendKeys(4,#modalDialogView > form > div > div:nth-child(2) > div:nth-child(2) > input:nth-child(2),Gái Một Con 💙💙 Tình Còn 💚 Phơi phới 💙💙,True)
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)
+   at MCommon.Chrome.SendKeys(Int32 typeAttribute, String attributeValue, String content, Boolean isClick) in D:\GIT\MaxShare\MaxShare\MCommon\Chrome.cs:line 630
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:03:02
+File: 2_10_2020_0_3_2_3947
+Error: chrome.SendKeyDown(4,[aria-activedescendant])
+
+Type: OpenQA.Selenium.NoSuchElementException
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"[aria-activedescendant]"}
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at MCommon.Chrome.SendKeyDown(Int32 typeAttribute, String attributeValue) in D:\GIT\MaxShare\MaxShare\MCommon\Chrome.cs:line 367
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:03:28
+File: 2_10_2020_0_3_28_1772
+Error: chrome.SendEnter(4,[aria-activedescendant])
+
+Type: OpenQA.Selenium.NoSuchElementException
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"[aria-activedescendant]"}
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at MCommon.Chrome.SendEnter(Int32 typeAttribute, String attributeValue) in D:\GIT\MaxShare\MaxShare\MCommon\Chrome.cs:line 920
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:03:42
+File: 2_10_2020_0_3_42_5376
+Error: chrome.SendKeys(4,#modalDialogView > form > div > div:nth-child(2) > div:nth-child(2) > input:nth-child(2),Gái Một Con 💙💙 Tình Còn 💚 Phơi phới 💙💙,True)
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)
+   at MCommon.Chrome.SendKeys(Int32 typeAttribute, String attributeValue, String content, Boolean isClick) in D:\GIT\MaxShare\MaxShare\MCommon\Chrome.cs:line 630
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:04:52
+File: 2_10_2020_0_4_52_9595
+Error: chrome.SendKeys(4,#modalDialogView > form > div > div:nth-child(2) > div:nth-child(2) > input:nth-child(2),Gái Một Con 💙💙 Tình Còn 💚 Phơi phới 💙💙,True)
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)
+   at MCommon.Chrome.SendKeys(Int32 typeAttribute, String attributeValue, String content, Boolean isClick) in D:\GIT\MaxShare\MaxShare\MCommon\Chrome.cs:line 630
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:05:08
+File: 2_10_2020_0_5_8_5583
+Error: chrome.SendKeys(4,#modalDialogView > form > div > div:nth-child(2) > div:nth-child(2) > input:nth-child(2),Gái Một Con 💙💙 Tình Còn 💚 Phơi phới 💙💙,True)
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)
+   at MCommon.Chrome.SendKeys(Int32 typeAttribute, String attributeValue, String content, Boolean isClick) in D:\GIT\MaxShare\MaxShare\MCommon\Chrome.cs:line 630
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:08:50
+File: 2_10_2020_0_8_50_8075
+Error: chrome.Click(1,share_msg_input)
+
+Type: System.ArgumentOutOfRangeException
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.ReadOnlyCollection`1.get_Item(Int32 index)
+   at MCommon.Chrome.Click(Int32 typeAttribute, String attributeValue, Int32 index, Int32 subTypeAttribute, String subAttributeValue, Int32 subIndex)
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:08:53
+File: 2_10_2020_0_8_53_1215
+Error: chrome.Click(1,share_submit)
+
+Type: OpenQA.Selenium.ElementNotInteractableException
+Message: element not interactable
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at MCommon.Chrome.Click(Int32 typeAttribute, String attributeValue, Int32 index, Int32 subTypeAttribute, String subAttributeValue, Int32 subIndex)
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:09:11
+File: 2_10_2020_0_9_11_1502
+Error: chrome.SendKeyDown(4,[aria-activedescendant])
+
+Type: OpenQA.Selenium.NoSuchElementException
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"[aria-activedescendant]"}
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at MCommon.Chrome.SendKeyDown(Int32 typeAttribute, String attributeValue)
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:09:14
+File: 2_10_2020_0_9_14_1885
+Error: chrome.SendEnter(4,[aria-activedescendant])
+
+Type: OpenQA.Selenium.NoSuchElementException
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"[aria-activedescendant]"}
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at MCommon.Chrome.SendEnter(Int32 typeAttribute, String attributeValue)
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:09:15
+File: 2_10_2020_0_9_15_8942
+Error: chrome.ExecuteScript(document.querySelector('#share_msg_input').value="Xin chào mọi người:\r\nIcon 1: 😖, 🤑, 🤥, 💩, 😣\r\nIcon 2: 👕, 👝, 🛒, 🎹, 💘\r\nIcon 3: 🧀, 🍾, 🍬, 🍏, 🍉\r\nIcon 4: 🦊, 🐗, 🐖, 🐱, 😼\r\nIcon 5: ⛄, 🌛, 💦, ⛈️, 🌬\r\nIcon 6: 🚋, 🚛, 🛰, 🚢, 🛬\r\nIcon 7: 🖲, 💴, 🛋, 📰, ⚙\r\nIcon 8: 😎, 😛, 😳, 🤓, 😋\r\nNgày hiện tại: 02/10/2020\r\nThời gian hiện tại: 00:09:04\r\nDãy số ngẫu nhiên: 3325172 - 0729989\r\nChuỗi ngẫu nhiên: camza - fefcl\r\nIcon số Facebook: 0️⃣9️⃣8️⃣7️⃣6️⃣5️⃣4️⃣3️⃣2️⃣1️⃣")
+
+Type: OpenQA.Selenium.WebDriverException
+Message: javascript error: Cannot set property 'value' of null
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)
+   at MCommon.Chrome.ExecuteScript(String script)
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:09:20
+File: 2_10_2020_0_9_20_6067
+Error: chrome.Click(1,share_msg_input)
+
+Type: System.ArgumentOutOfRangeException
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.ReadOnlyCollection`1.get_Item(Int32 index)
+   at MCommon.Chrome.Click(Int32 typeAttribute, String attributeValue, Int32 index, Int32 subTypeAttribute, String subAttributeValue, Int32 subIndex)
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:09:24
+File: 2_10_2020_0_9_24_4978
+Error: chrome.Click(1,share_submit)
+
+Type: OpenQA.Selenium.ElementNotInteractableException
+Message: element not interactable
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at MCommon.Chrome.Click(Int32 typeAttribute, String attributeValue, Int32 index, Int32 subTypeAttribute, String subAttributeValue, Int32 subIndex)
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:11:02
+File: 2_10_2020_0_11_2_6306
+Error: chrome.SendKeys(4,#modalDialogView > form > div > div:nth-child(2) > div:nth-child(2) > input:nth-child(2),Gái Một Con Vẫn Còn Ngon 👉 Tâm Sự Hẹn Hò,True)
+
+Type: OpenQA.Selenium.WebDriverException
+Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)
+   at MCommon.Chrome.SendKeys(Int32 typeAttribute, String attributeValue, String content, Boolean isClick)
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:11:06
+File: 2_10_2020_0_11_6_5374
+Error: chrome.SendKeyDown(4,[aria-activedescendant])
+
+Type: OpenQA.Selenium.NoSuchElementException
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"[aria-activedescendant]"}
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at MCommon.Chrome.SendKeyDown(Int32 typeAttribute, String attributeValue)
+-----------------------------------------------------------------------------
+Date: 02/10/2020 00:11:10
+File: 2_10_2020_0_11_10_5757
+Error: chrome.SendEnter(4,[aria-activedescendant])
+
+Type: OpenQA.Selenium.NoSuchElementException
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"[aria-activedescendant]"}
+  (Session info: chrome=85.0.4183.121)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)
+   at MCommon.Chrome.SendEnter(Int32 typeAttribute, String attributeValue)
+-----------------------------------------------------------------------------
+Date: 06/07/2021 16:00:32
+File: 6_7_2021_16_0_32_7641
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 85 (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at (Chrome , Boolean )
+-----------------------------------------------------------------------------
+Date: 21/09/2021 22:00:17
+File: 21_9_2021_22_0_17_2160
+Error: chrome.Open()
+
+Type: System.InvalidOperationException
+Message: session not created: This version of ChromeDriver only supports Chrome version 85 (SessionNotCreated)
+StackTrace:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options)
+   at MCommon.Chrome.Open(Boolean isGetUseragentDefault)
